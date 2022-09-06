@@ -1,7 +1,7 @@
 {
-  "name": "ArieTube-Bots",
+  "name": "fin-bot",
   "description": "bot wa multydevice",
-  "repository": "https://github.com/arivpns/arivpns",
+  "repository": "https://github.com/silana3/fin-bot",
   "logo": "https://telegra.ph/file/df447196025b29017e1fa.jpg",
   "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
   "buildpacks": [
@@ -19,3 +19,4 @@
   }    
  ]
 }
+
