@@ -1,22 +1,27 @@
 {
-  "name": "fin-bot",
-  "description": "bot wa multydevice",
+  "name": "FIN-BOT",
+  "description": "FIN BOT",
   "repository": "https://github.com/silana3/fin-bot",
-  "logo": "https://telegra.ph/file/df447196025b29017e1fa.jpg",
-  "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
+  "logo": "https://i.imgur.com/h3LsbnN.jpeg",
+  "keywords": ["fin-bot", "bot", "whatsapp bot", "ZENOI", "multi device"],
   "buildpacks": [
-  {
-    "url": "heroku/nodejs"
-  },
-  {
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-  },
-  {
-    "url": "https://github.com/fewerandfaster/heroku-buildpack-imagemagick.git"
-  },
-  {
-    "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-  }    
- ]
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+            "url": "https://github.com/yespark/heroku-imagemagick-buildpack"
+        },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
 }
-
